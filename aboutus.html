@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Rhyno EV</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="aboutus.css">
+</head>
+<style>
+    body {
+    font-family: 'Calibri', sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
+}
+
+
+/* Header */
+header {
+    background-color: #252525; 
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    width: 150px; 
+}
+
+h1 {
+    font-family: 'Lato', sans-serif; 
+    font-size: 2em;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 1px; 
+    position: relative;
+    right: 600px;
+    
+}
+
+
+header:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #252525 0%, #3C3C3C 100%);
+    z-index: -1; 
+}
+
+main {
+    flex: 1; 
+    padding: 50px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+
+.mission {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.mission h2 {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.mission p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #555;
+}
+
+
+.product {
+    text-align: center;
+    padding: 30px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.product h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.product p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Benefits Section */
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.benefits h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 100%;
+    color: #333;
+}
+
+.benefits ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.benefits li {
+    width: 30%; 
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /
+}
+
+
+.call-to-action {
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #fff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.call-to-action h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.call-to-action p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.explore-btn {
+    background-color: #F9ED32; 
+    color: #252525;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.explore-btn:hover {
+    background-color: #FFF225; }
+
+
+footer {
+    background-color: #252525;
+    color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+footer .social-links li {
+    display: inline-block;
+}
+
+footer .social-links li a {
+    color: #f2f2f2;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+footer .social-links li a:hover {
+    color: #F9ED32; 
+}
+.social-links{
+    position: relative;
+    bottom:30px;
+    left: 500px;
+}
+.copyright{
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+</style>
+<body>
+  <header>
+    <img src="https://github.com/srivatsa2005/mainproj-html-and-css/blob/main/colorlogo.png?raw=true" alt="Rhyno EV Logo" class="logo">
+    <h1>About Rhyno EV</h1>
+  </header>
+  <main>
+    <section class="mission">
+      <div class="mission-text">
+        <h2>Our Mission</h2>
+        <p>Established in 2019 by an automotive engineer with a vision for sustainable and robust mobility solutions, Rhyno EV isn't just a company; it's a collective effort of a dynamic team of young individuals passionately driving innovation in the electric vehicle industry. We believe in engineering solutions that solve problems.</p>
+      </div>
+    </section>
+    <section class="product">
+      <h2>Introducing the Future</h2>
+      <p>With our first product, we've taken a bold step to create something more than just a vehicle; it's a unique experience of elegance, comfort, and style, addressing the pitfalls of conventional electric scooters. Our design prioritizes safety, eliminating concerns of fires and ensuring a longer battery lifespan with our innovative battery technology.</p>
+    </section>
+    <section class="benefits">
+      <h2>Built to Last, Built for You</h2>
+      <ul>
+        <li>Safety First: Design focused on fire prevention and enhanced battery life.</li>
+        <li>Fleet-Friendly: Rugged and reliable, ideal for tourist locations like Goa.</li>
+        <li>Aesthetic Appeal: Blending functionality with a sleek and stylish design.</li>
+      </ul>
+    </section>
+    <section class="call-to-action">
+      <h2>Join the Ride</h2>
+      <p>Be a part of the revolution in sustainable transportation. Explore Rhyno EV's electric scooters and experience the future of mobility.</p>
+      <a href="http://localhost:3000/" class="explore-btn">Explore Our vehicles</a>
+    </section>
+  </main>
+  <footer>
+    <div class="copyright">
+      &copy; Rhyno EV - 2024
+    </div>
+    <ul class="social-links">
+      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+  </footer>
+</body>
+</html>
